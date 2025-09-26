@@ -39,7 +39,7 @@ dependencies = [
    "datasets",
    "typing_extensions",
    "pycountry",
-   "pyairports",
+   "airports-py",
 ]
 dynamic = ["version"]
 
@@ -97,7 +97,7 @@ filterwarnings = [
     "ignore::FutureWarning:transformers.*",
     "ignore::FutureWarning:huggingface_hub.*",
     "ignore::UserWarning",
-    "ignore::DeprecationWarning:pyairports.*",
+    "ignore::DeprecationWarning:airports-py.*",
 ]
 
 [tool.mypy]
@@ -135,7 +135,7 @@ module = [
     "uvicorn.*",
     "fastapi.*",
     "pycountry.*",
-    "pyairports.*",
+    "airports-py.*",
 ]
 ignore_missing_imports = true
 

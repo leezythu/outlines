@@ -1,7 +1,7 @@
 """Generate valid airport codes."""
 from enum import Enum
 
-from pyairports.airports import AIRPORT_LIST
+from airports-py.airports import AIRPORT_LIST
 
 AIRPORT_IATA_LIST = list(
     {(airport[3], airport[3]) for airport in AIRPORT_LIST if airport[3] != ""}
